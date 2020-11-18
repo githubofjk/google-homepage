@@ -31,15 +31,12 @@ main {
 }
 
 .searchform {
-    background: #fff;
     display: flex;
     border: 1px solid #dfe1e5;
-    box-shadow: none;
     border-radius: 24px;
-    z-index: 3;
-    height: 44px;
-    margin: 0 auto;
-    width: 482px;
+    box-shadow: none;
+    height: 34px;
+    max-width: 460px;
     width: auto;
 }
 
@@ -48,9 +45,9 @@ main {
 }
 
 .micbutton {
-    background-image: url("/images/mic.png");
-    border: 1px solid red;
     background: transparent;
+    background-image: url(/images/mic.png);
     background-repeat: no-repeat;
-    background-size: 24px;
+    background-size: contain;
+    border: none;
 }
