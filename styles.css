@@ -16,6 +16,7 @@ ul {
 li {
     float: left;
     padding: 5px;
+    cursor: pointer;
 }
 
 .right {
@@ -34,17 +35,24 @@ a:hover {
 
 .signinbackground {
     background-color: #4285f4;
-    border-radius: 4px;
-    border: none;
+    border-radius: 2px;
+    cursor: default;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .signintext {
     background-color: #4285f4;
-    border: none;
     color: azure;
+    cursor: default;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
     font-weight: 600;
+}
+
+.signintext:hover {
+    text-decoration: none;
 }
 
 main {
@@ -59,6 +67,7 @@ main {
 
 .searchimage {
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .searchform {
@@ -68,6 +77,8 @@ main {
     border-radius: 24px;
     box-shadow: none;
     height: 44px;
+    margin-top: 15px;
+    width: auto;
     min-width: fit-content;
     max-width: 460px;
 }
@@ -76,9 +87,9 @@ main {
     border: none;
     height: 34px;
     outline-style: none;
-    max-width: 387px;
-    min-width: 284px;
     width: auto;
+    min-width: 284px;
+    max-width: 387px;
 }
 
 .micbutton {
@@ -87,6 +98,7 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     border: none;
+    cursor: pointer;
     height: 24px;
     width: 24px;
     margin-left: auto;
@@ -97,6 +109,33 @@ main {
     display: inline-block;
     padding-top: 18px;
 }
+
+.submitinput {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 16px 10px 16px;
+    margin: 11px 4px;
+}
+
+.submitinput:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+
+/*
+.submitinput:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+*/
 
 footer {
     background: #f2f2f2;
