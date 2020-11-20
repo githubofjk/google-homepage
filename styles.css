@@ -94,7 +94,7 @@ main {
 
 .micbutton {
     background: transparent;
-    background-image: url(/images/mic.png);
+    background-image: url(images/mic.png);
     background-repeat: no-repeat;
     background-size: contain;
     border: none;
